@@ -1,0 +1,66 @@
+/* Tone down the biography role so the name stays visually primary */
+.resume-biography p.text-2xl.font-semibold {
+  font-size: 1.125rem; /* ~text-lg */
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Bold site owner in publication author lists */
+.li-cite-author .font-bold,
+.article-metadata .font-bold {
+  font-weight: 700;
+}
+
+/* Keep avatar display size like medium, but use the higher-res xl source */
+.resume-biography .avatar-wrapper {
+  width: 200px !important;
+  height: 200px !important;
+}
+.resume-biography .avatar-wrapper .avatar {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+/*
+  Education cards: with only 2 degrees, xl:grid-cols-3 makes each card ~1/3 wide
+  and long titles overflow. Force 2 columns and let cards grow with content.
+*/
+.resume-biography .grid.md\:grid-cols-2.xl\:grid-cols-3 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  align-items: stretch;
+}
+@media (max-width: 767px) {
+  .resume-biography .grid.md\:grid-cols-2.xl\:grid-cols-3 {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+
+.resume-biography .grid.md\:grid-cols-2.xl\:grid-cols-3 > .group {
+  min-width: 0;
+  height: 100%;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.resume-biography .grid.md\:grid-cols-2.xl\:grid-cols-3 > .group > .flex {
+  align-items: flex-start;
+  min-width: 0;
+  width: 100%;
+}
+
+.resume-biography .grid.md\:grid-cols-2.xl\:grid-cols-3 .flex-1 {
+  min-width: 0;
+  flex: 1 1 0%;
+  overflow: visible;
+}
+
+.resume-biography .grid.md\:grid-cols-2.xl\:grid-cols-3 .flex-1 > p {
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.resume-biography .grid.md\:grid-cols-2.xl\:grid-cols-3 .flex-1 > p:first-child {
+  font-size: 1.125rem; /* slightly below text-xl so long titles fit cleaner */
+  line-height: 1.35;
+}

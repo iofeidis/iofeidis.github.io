@@ -1,0 +1,128 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Iason Ofeidis
+  given: Iason
+  family: Ofeidis
+  alternate: ''
+  pronunciation: ''
+  pronouns: he/him
+postnominals: []
+status:
+  icon: ""
+role: Ph.D. Candidate, Electrical & Computer Engineering
+bio: |
+  I’m a Ph.D. candidate in Electrical and Computer Engineering at Yale, advised by Prof. [Leandros Tassiulas](https://engineering.yale.edu/research-and-faculty/faculty-directory/leandros-tassiulas). My research sits at the intersection of AI and networked systems, with a focus on Collaborative Learning (Federated, Split) for multimodal models under communication and compute constraints. Before the Ph.D., I was a Research Engineer at the [Yale Institute for Network Science (YINS)](https://yins.yale.edu/), and earlier a Research Assistant at the [Centre for Research & Technology Hellas (CERTH)](https://www.certh.gr/)/[INAB](https://www.inab.certh.gr/).
+
+affiliations:
+  - name: Yale University
+    url: https://www.yale.edu/
+  - name: Yale Institute for Network Science
+    url: https://yins.yale.edu/
+
+links:
+  - icon: at-symbol
+    url: /#contact
+    label: iason.ofeidis <at> yale.edu
+  - icon: brands/github
+    url: https://github.com/iofeidis
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/iason-ofeidis-245913173/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=wOGPwdMAAAAJ&hl=en
+
+interests:
+  - Split Federated Learning
+  - Edge AI / Multimodal Systems
+  - Distributed & Federated Learning
+  - Networked Machine Learning Systems
+
+education:
+  - degree: Ph.D., Electrical & Computer Engineering
+    institution: Yale University
+    year: "2023 – 2028"
+    start: "2023"
+    end: "2028"
+    summary: |
+      Expected May 2028. Advisor: Prof. Leandros Tassiulas. Selected courses: Intermediate Machine Learning, Distributed Systems, Graph Neural Networks, Big Data Systems.
+  - degree: M.Eng., Electrical & Computer Engineering (Telecommunications)
+    institution: Aristotle University of Thessaloniki
+    year: "2015 – 2020"
+    start: "2015"
+    end: "2020"
+    summary: |
+      Diploma thesis on predicting smartphone users’ emotional state from keystroke characteristics using machine learning. Advisor: Prof. Leontios Hadjileontiadis.
+
+experience:
+  - role: Networking Research Intern
+    org: Nokia Bell Labs
+    start: 2025-06-01
+    end: 2025-08-31
+    summary: |
+      Engineered a scalable Clustered Federated Learning framework for joint anomaly detection and attack classification in resource-constrained IoT environments (paper in preparation).
+  - role: Graduate Researcher
+    org: Yale University
+    start: 2023-08-01
+    summary: |
+      Co-designed compression modules for Split Learning (up to ~4× less network usage). Investigating Split Federated Learning with multimodality and LLMs under communication and compute constraints. Collaborating on NSF-funded multi-university projects.
+  - role: Research Engineer
+    org: Yale University / YINS
+    start: 2021-11-01
+    end: 2023-07-31
+    summary: |
+      Benchmarked 7 data-loading libraries across vision datasets; developed and maintain an open-source data-loader benchmark framework. Built an Ethereum data scraper and analyzed 2TB+ of blockchain data on DeFi responses to federal monetary policy.
+  - role: Research Assistant
+    org: CERTH / INAB
+    start: 2021-07-01
+    end: 2021-10-31
+    summary: |
+      Led redesign and refactoring of TRIPR into a Bioconductor package; automated testing workflows with GitHub Actions.
+
+skills:
+  - name: Programming Languages
+    items:
+      - label: Python
+        level: 5
+      - label: Go
+        level: 3
+      - label: Rust
+        level: 2
+      - label: R
+        level: 3
+      - label: C/C++
+        level: 3
+      - label: Bash
+        level: 4
+  - name: Frameworks & Tools
+    items:
+      - label: PyTorch
+        level: 5
+      - label: TensorFlow
+        level: 3
+      - label: Docker / Kubernetes
+        level: 3
+      - label: Git
+        level: 5
+      - label: LaTeX
+        level: 4
+
+languages:
+  - name: Greek
+    level: 5
+    label: Native
+  - name: English
+    level: 5
+    label: Fluent
+
+awards:
+  - title: Gerondelis Foundation Award
+    awarder: Gerondelis Foundation
+    date: "2023-01-01"
+    summary: Award supporting graduate studies at Yale.
+    icon: hero/trophy
+  - title: Yale GSAS Student Fellowship
+    awarder: Yale Graduate School of Arts and Sciences
+    date: "2023-08-01"
+    summary: Graduate fellowship for Ph.D. studies in Electrical & Computer Engineering.
+    icon: hero/academic-cap
